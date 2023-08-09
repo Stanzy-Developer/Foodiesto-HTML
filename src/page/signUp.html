@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../output.css">
+    <title>Document</title>
+    <script src="../js/form.js" defer></script>
+    <script src="../js/formData.js" defer></script>
+    <script src="../js/passwordStrength.js" defer></script>
+</head>
+
+<body>
+    <nav class="px-[161px] py-[44px] flex items-center">
+        <a href="index.html">
+            <img src="../assets//logo.png" alt="" width="105px" height="55px" loading="lazy" class="mr-[240px]" />
+        </a>
+        <ul class="flex gap-[30px] mr-[86px]">
+            <li
+                class="text-[#2C2C2C] relative  py-[4px] hover:font-bold before:contents-[''] before:absolute before:bottom-0 before:left-0 before:rounded-md before:w-0 before:h-[2px] before:bg-[#DC810B] hover:before:w-full hover:before:transition-all hover:before:duration-1000 hover:before:ease-in-out">
+                <a href="#about">About</a>
+            </li>
+            <li
+                class="text-[#2C2C2C] relative  py-[4px] hover:font-bold before:contents-[''] before:absolute before:bottom-0 before:left-0 before:rounded-md before:w-0 before:h-[2px] before:bg-[#DC810B] hover:before:w-full hover:before:transition-all hover:before:duration-1000 hover:before:ease-in-out">
+                <a href="#feature">Features</a>
+            </li>
+            <li
+                class="text-[#2C2C2C] relative  py-[4px] hover:font-bold before:contents-[''] before:absolute before:bottom-0 before:left-0 before:rounded-md before:w-0 before:h-[2px] before:bg-[#DC810B] hover:before:w-full hover:before:transition-all hover:before:duration-1000 hover:before:ease-in-out">
+                <a href="#pricing">Pricing</a>
+            </li>
+            <li
+                class="text-[#2C2C2C] relative  py-[4px] hover:font-bold before:contents-[''] before:absolute before:bottom-0 before:left-0 before:rounded-md before:w-0 before:h-[2px] before:bg-[#DC810B] hover:before:w-full hover:before:transition-all hover:before:duration-1000 hover:before:ease-in-out">
+                <a href="#faq">FAQ</a>
+            </li>
+            <li
+                class="text-[#2C2C2C] relative  py-[4px] hover:font-bold before:contents-[''] before:absolute before:bottom-0 before:left-0 before:rounded-md before:w-0 before:h-[2px] before:bg-[#DC810B] hover:before:w-full hover:before:transition-all hover:before:duration-1000 hover:before:ease-in-out">
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+        <div>
+            <a href="signIn.html" class="mr-[32px] flex gap-[10px] items-center">
+                <img src="../assets/Profile.svg" alt="" loading="lazy" class="cursor-pointer" />
+                <p class=" border-[#DC810B] border-b-[2px]  p-[2px] cursor-pointer text-[#655D5D]">
+                    Sign In
+                </p>
+            </a>
+        </div>
+        <a href="signUp.html">
+            <button class="btn">
+                <p class="z-20"> Get Started</p>
+            </button>
+        </a>
+
+    </nav>
+    <div class="flex items-center gap-[160px] px-[160px]  py-[30px] relative">
+        <img src="bg" alt="" class="absolute left-0 top-0 -z-10 " />
+        <div>
+            <h1 class="text-[#525252] text-[2.842rem] font-bold mb-[22px]">
+                You made the right <br /> decision !
+            </h1>
+            <p class="text-black text-[1rem] w-[390.882px]">
+                We are glad to see you onboard with us. Experience another way of
+                managing your food items.
+            </p>
+        </div>
+        <div class="bg-white w-[383px] h-[510px] rounded-[40px] shadow-xl p-[35px]">
+            <img src="../assets/logo.png" alt="" class="w-[92px] h-[48px] mb-[15px]" />
+            <form action="" class="flex flex-col gap-2" id="myForm">
+                <div class="w-[317.703px] h-[60px] p-[8px] rounded-[14px] bg-[rgba(217,217,217,0.20)]">
+                    <p class="text-[#828282] text-[0.875rem]">Your email</p>
+                    <input type="text" required placeholder="demo@gml.com"
+                        class="outline-none bg-transparent text-[#4A5568] text-[1rem] font-medium" />
+                </div>
+                <div class="w-[317.703px] h-[60px] p-[8px] rounded-[14px] bg-[rgba(217,217,217,0.20)]  relative">
+                    <div>
+                        <p class="text-[#828282] text-[0.875rem]">Password</p>
+                        <input type="text" required placeholder="vtsh-9nVu-qnDh-Swhk" id="passwordInput"
+                            class="outline-none bg-transparent text-[#4A5568] text-[1rem] font-medium" />
+                    </div>
+                    <img src="../assets/hide.svg" alt=""
+                        class="absolute right-[20px] top-[20px] cursor-pointer w-[24px] h-[21px]" id="toggleBtn" />
+                </div>
+
+                <div
+                    class="w-[317.703px] h-[60px] p-[8px] rounded-[14px] bg-[rgba(217,217,217,0.20)] flex justify-between">
+                    <div>
+                        <p class="text-[#828282] text-[0.875rem]">Mobile number</p>
+                        <div class="flex items-center gap-[10px]">
+                            <p class="text-[#4A5568] font-medium text-[1rem]">+971 -</p>
+                            <input type="text" required placeholder="51 234 5678"
+                                class=" placeholder:text-[rgba(74,85,104,0.20)] bg-transparent outline-none">
+                        </div>
+                    </div>
+                    <img src="../assets/country.svg" />
+
+                </div>
+
+                <div class="mt-[23px] flex justify-between items-center">
+                    <p class="text-[#828282] text-[.875rem]">Password Strength</p>
+                    <div class="flex items-center gap-[13px]">
+                        <p class="text-[.875rem] font-bold passwordType text-[#f31a1a]">
+                        </p>
+                        <img id="passwordStrength" src="" alt="" />
+                    </div>
+                </div>
+                <a href="EmailConfirmation.html">
+                    <button class="btn--color  w-full h-[60px] rounded-[300px] mt-[36px]">
+                        Create Account <img src="../assets/Frame.svg" alt="" />
+                        <img src="../images/dot.svg" alt="" />
+                    </button>
+                </a>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

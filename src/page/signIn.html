@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../output.css">
+    <title>Document</title>
+    <script src="../js/form.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav class="px-[161px] py-[44px] flex items-center">
+
+            <a href="index.html">
+                <img src="../assets//logo.png" alt="" width="105px" height="55px" loading="lazy" class="mr-[240px]" />
+            </a>
+            <div class="flex items-center gap-[150px]">
+                <ul class="flex gap-[30px] mr-[86px]">
+                    <li
+                        class="text-[#2C2C2C] relative  py-[4px] hover:font-bold before:contents-[''] before:absolute before:bottom-0 before:left-0 before:rounded-md before:w-0 before:h-[2px] before:bg-[#DC810B] hover:before:w-full hover:before:transition-all hover:before:duration-1000 hover:before:ease-in-out">
+                        <a href="#about">About</a>
+                    </li>
+                    <li
+                        class="text-[#2C2C2C] relative  py-[4px] hover:font-bold before:contents-[''] before:absolute before:bottom-0 before:left-0 before:rounded-md before:w-0 before:h-[2px] before:bg-[#DC810B] hover:before:w-full hover:before:transition-all hover:before:duration-1000 hover:before:ease-in-out">
+                        <a href="#feature">Features</a>
+                    </li>
+                    <li
+                        class="text-[#2C2C2C] relative  py-[4px] hover:font-bold before:contents-[''] before:absolute before:bottom-0 before:left-0 before:rounded-md before:w-0 before:h-[2px] before:bg-[#DC810B] hover:before:w-full hover:before:transition-all hover:before:duration-1000 hover:before:ease-in-out">
+                        <a href="#pricing">Pricing</a>
+                    </li>
+                    <li
+                        class="text-[#2C2C2C] relative  py-[4px] hover:font-bold before:contents-[''] before:absolute before:bottom-0 before:left-0 before:rounded-md before:w-0 before:h-[2px] before:bg-[#DC810B] hover:before:w-full hover:before:transition-all hover:before:duration-1000 hover:before:ease-in-out">
+                        <a href="#faq">FAQ</a>
+                    </li>
+                    <li
+                        class="text-[#2C2C2C] relative  py-[4px] hover:font-bold before:contents-[''] before:absolute before:bottom-0 before:left-0 before:rounded-md before:w-0 before:h-[2px] before:bg-[#DC810B] hover:before:w-full hover:before:transition-all hover:before:duration-1000 hover:before:ease-in-out">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+
+                <a href="signUp.html">
+                    <button class="btn">
+                        <p class="z-20"> Get Started</p>
+                    </button>
+                </a>
+            </div>
+        </nav>
+        </section>
+    </header>
+
+    <div class="flex items-center gap-[235px] px-[160px] py-[30px]">
+        <div>
+            <h1 class="text-[#525252] text-[2.842rem] font-bold mb-[22px]">
+                We are happy to <br />
+                see you again
+            </h1>
+            <p class="text-black text-[1rem] w-[390.882px]">
+                Login to your dashboard and take full control of your restaurant.
+                Always contact us if you need support. .
+            </p>
+        </div>
+        <div class="bg-white w-[383px] h-[510px] rounded-[40px] shadow-xl p-[35px]">
+            <div class="flex justify-between items-center">
+                <img src="../assets/logo.png" alt="" class="w-[92px] h-[48px] mb-[33px]" />
+                <div class="flex items-center mb-[33px] gap-2">
+                    <h2 class="text-[#2C2C2C] font-bold ">UAE</h2>
+                    <img src="../assets/country.svg" />
+                </div>
+
+            </div>
+            <form class="flex flex-col gap-2">
+                <div class="w-[317.703px] h-[60px] p-[8px] rounded-[14px] bg-[rgba(217,217,217,0.20)]">
+                    <p class="text-[#828282] text-[0.875rem]">Your email</p>
+                    <input type="text" name="" id="" required
+                        class="outline-none bg-transparent text-[#4A5568] text-[1rem] font-medium"
+                        placeholder="demo@gml.com" />
+                </div>
+
+                <div
+                    class="w-[317.703px] h-[60px] p-[8px] rounded-[14px] bg-[rgba(217,217,217,0.20)] relative flex items-center justify-between">
+                    <div>
+                        <p class="text-[#828282] text-[0.875rem]">Password</p>
+                        <input type="text" name="" required id="passwordInput"
+                            class="outline-none bg-transparent text-[#4A5568] text-[1rem] font-medium"
+                            placeholder="vtsh-9nVu-qnDh-Swhk" />
+                    </div>
+                    <img src="../assets/hide.svg" alt="" class="cursor-pointer w-[25px] h-[20px]" id="toggleBtn">
+                </div>
+
+                <div class="my-[32px]">
+                    <p class="text-[#2C2C2C] text-[.875rem] text-right">
+                        Forgot password ?
+                        <span class="text-[#DC810B] font-bold cursor-pointer">Reset here.</span>
+                    </p>
+                </div>
+                <button class="btn--color  w-full h-[60px] rounded-[300px]">
+                    Sign In <img src="../assets/Frame.svg" alt="" />
+                </button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
